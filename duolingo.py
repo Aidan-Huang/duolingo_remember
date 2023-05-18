@@ -245,7 +245,7 @@ class Duolingo:
 
         # call edge-tts to generate mp3
         make_edge_article_tts_mp3(article, language_short)
-        make_edge_conversation_tts_mp3(conversion, language_short)
+#         make_edge_conversation_tts_mp3(conversion, language_short)
 
         if words_list:
             return (
