@@ -20,7 +20,8 @@ jobs:
     steps:
       - name: agu
         run: sudo apt-get update
-      - name: Setup ffmpeg for differnt platforms 
+      - name: Setup ffmpeg for differnt platforms
+        uses: FedericoCarboni/setup-ffmpeg@main
       - uses: actions/checkout@v2
       - name: Set up Python
         uses: actions/setup-python@v4
